@@ -9,3 +9,9 @@ Image available from:
 * [**Docker Hub**](https://hub.docker.com/r/galexrt/debian-dh)
 
 Debian with dh for package building as a Docker image.
+
+## Run debian-dh in the container
+Go to your current work directory and run the following command:
+```
+docker run -it -v "$(pwd)":/workspace debian-dh
+```
