@@ -1,5 +1,7 @@
 FROM debian:jessie
 
+LABEL maintainer="Alexander Trost <galexrt@googlemail.com>"
+
 RUN apt-get update && \
     apt-get dist-upgrade -y && \
     apt-get install -y build-essential dh-make && \
